@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // From node_modules/next/dist/docs/01-app/02-guides/debugging.md. The
+      // server is where Effect runs: once paused here, the Effect extension's
+      // Context, Span Stack and Fibers panels light up.
+      "name": "Next.js: debug server-side",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev -- --inspect"
+    }
+  ]
+}

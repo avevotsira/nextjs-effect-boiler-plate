@@ -1,0 +1,75 @@
+{
+  "common": {
+    "app_name": "App",
+    "loading": "Loading",
+    "not_found_page": "404 - Not Found",
+    "not_found_page_description": "The page you are looking for does not exist",
+    "back_home": "Back to Home",
+    "home": "Home",
+    "previous_page": "Previous",
+    "next_page": "Next",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "page_of": "Page {page} of {total}"
+  },
+  "auth": {
+    "sign_in_title": "Sign in",
+    "sign_in_description": "Only accounts that have been added can sign in.",
+    "sign_out": "Sign out",
+    "signing_out": "Signing out",
+    "errors": {
+      "unregistered": "Your account is not linked to this platform yet. Ask your administrator to add it.",
+      "deactivated": "Your account has been deactivated. Contact your administrator."
+    }
+  },
+  "shell": {
+    "skip_to_content": "Skip to content",
+    "account": "Account: {email}"
+  },
+  "placeholder": {
+    "not_built_title": "This page is not ready yet",
+    "not_built_description": "It is still being built and will appear in a later update."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "too_long": "This is too long.",
+    "email_invalid": "Enter a valid email, like name@example.gov.kh.",
+    "number_invalid": "Enter a number.",
+    "whole_number": "Enter a whole number, like 12.",
+    "not_negative": "Enter 0 or more.",
+    "date_invalid": "Enter a valid date.",
+    "decimals_max": "Use at most {count} digits after the decimal point.",
+    "date_typing": "Type the date with numbers, like 25/12/2024.",
+    "year_invalid": "Enter a year with four digits, like 2019.",
+    "year_future": "The year cannot be in the future.",
+    "choose_one_or_more": "Choose at least one."
+  },
+  "api_error": {
+    "UNAUTHORIZED": "Your session has ended. Sign in again.",
+    "FORBIDDEN": "You do not have permission to do this.",
+    "NOT_FOUND": "This item no longer exists. Refresh the page.",
+    "RATE_LIMIT_EXCEEDED": "Too many attempts. Wait a moment and try again.",
+    "INVALID_JSON": "Something went wrong sending this. Refresh the page and try again.",
+    "VALIDATION_ERROR": "Some information is missing or wrong. Check the form and try again.",
+    "INTERNAL_ERROR": "Something went wrong on our side. Try again in a moment.",
+    "NETWORK_ERROR": "Could not reach the server. Check your connection and try again.",
+    "INVALID_RESPONSE": "The server sent an unexpected answer. Try again in a moment.",
+    "PAYLOAD_TOO_LARGE": "This is too large to send. Shorten the note or other long fields and try again.",
+    "UNKNOWN": "Something went wrong. Try again."
+  },
+  "form": {
+    "choose": "Choose one",
+    "date_placeholder": "DD/MM/YYYY",
+    "date_hint": "Day/month/year, like 25/12/2024.",
+    "characters": "{count, number} of {max, number} characters",
+    "year_placeholder": "YYYY",
+    "optional": "Optional.",
+    "chosen_count": "{count, plural, one {# chosen} other {# chosen}}",
+    "search": "Search",
+    "nothing_found": "Nothing matches.",
+    "remove_choice": "Remove {label}",
+    "choose_several": "Choose one or more",
+    "year_hint": "Four digits, like 2019."
+  }
+}

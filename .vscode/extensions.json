@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "effectful-tech.effect-vscode",
+    "oxc.oxc-vscode",
+    "typescriptteam.native-preview"
+  ],
+  // oxlint + oxfmt replace these here; settings.json switches them off too.
+  "unwantedRecommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "biomejs.biome"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "./node_modules/@effect/tsgo/schema.json",
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      },
+      {
+        "name": "@effect/language-service",
+        "ignoreEffectWarningsInTscExitCode": true,
+        "diagnosticSeverity": {
+          "abortControllerInEffect": "warning",
+          "acquireReleaseDisposable": "warning",
+          "allOfMapToForEach": "warning",
+          "catchAllTagDispatchToCatchTag": "warning",
+          "catchAllToMapError": "warning",
+          "catchChainToFirstSuccessOf": "warning",
+          "catchConditionalRefailToCatchIf": "warning",
+          "catchDieToOrDie": "warning",
+          "catchTagToCatchReason": "warning",
+          "catchToIgnore": "warning",
+          "catchToOrElseSucceed": "warning",
+          "catchUnfailableEffect": "warning",
+          "effectFnOpportunity": "warning",
+          "effectMapFlatten": "warning",
+          "effectMapVoid": "warning",
+          "effectSucceedWithVoid": "warning",
+          "flatMapConditionalToFilterOrFail": "warning",
+          "flatMapToMap": "warning",
+          "lazyEffect": "warning",
+          "leakingRequirements": "warning",
+          "mapSomeToAsSome": "warning",
+          "multipleCatchTag": "warning",
+          "optionMatchToFromOption": "warning",
+          "preferSucceedSomeOrNone": "warning",
+          "preferTypedSchemaDecoder": "warning",
+          "preferUnsafeConstructor": "warning",
+          "provideLayerSucceedToProvideService": "warning",
+          "raceFirstWithSleepToTimeout": "warning",
+          "redundantMapError": "warning",
+          "redundantOrDie": "warning",
+          "redundantSchemaTagIdentifier": "warning",
+          "returnEffectInGen": "warning",
+          "runEffectInsideEffect": "warning",
+          "runOfExitToRunExit": "warning",
+          "schemaNumber": "warning",
+          "schemaStructWithTag": "warning",
+          "schemaSyncInEffect": "warning",
+          "syncToSucceed": "warning",
+          "tryCatchInEffectGen": "warning",
+          "unnecessaryEffectGen": "warning",
+          "unnecessaryFailYieldableError": "warning",
+          "unnecessaryPipe": "warning",
+          "unnecessaryPipeChain": "warning",
+          "unnecessaryTypeofType": "warning"
+        }
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/public/*": ["./public/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules", "tools"]
+}

@@ -1,0 +1,39 @@
+{
+  "printWidth": 80,
+  "sortImports": {
+    "customGroups": [
+      {
+        "groupName": "react",
+        "elementNamePattern": ["react"]
+      },
+      {
+        "groupName": "next",
+        "elementNamePattern": ["next", "next/**"]
+      },
+      {
+        "groupName": "effect",
+        "elementNamePattern": ["effect", "effect/**", "@effect/**"]
+      }
+    ],
+    "groups": [
+      "react",
+      "next",
+      "effect",
+      "internal",
+      ["builtin", "external"],
+      ["parent", "sibling", "index"],
+      "style"
+    ]
+  },
+  "sortTailwindcss": {
+    "stylesheet": "./src/app/globals.css",
+    "functions": ["cn", "cva", "clsx"]
+  },
+  "ignorePatterns": [
+    "src/components/ui/**",
+    "drizzle/**",
+    ".claude/skills/*/**",
+    ".claude/commands/**",
+    "skills-lock.json"
+  ]
+}
